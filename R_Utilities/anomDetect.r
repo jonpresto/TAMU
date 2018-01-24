@@ -346,7 +346,7 @@ anomDetect <- function(X, k = c(10,20), nsub = nrow(X), method = c('lof','ldf','
               lpde = store_lpde,
               lpdf = store_lpdf,
               lpdr = store_lpdr,
-			   kid = knn_ids,
+	      kid = knn_ids,
               kdm = knn_dist_matrix
   )
   )
